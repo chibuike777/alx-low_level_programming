@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main - entry point
+ * main - prints size of char
  *
  * return: always 0 (success)
  */

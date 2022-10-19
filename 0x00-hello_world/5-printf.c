@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main - entry point
+ * main - prints with proper grammar, but the outcome is a piece of art,
  *
  * return: always 0 (success)
  */
