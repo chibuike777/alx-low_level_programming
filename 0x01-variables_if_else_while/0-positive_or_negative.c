@@ -4,6 +4,12 @@
 
 #include <stdio.h>
 
+/**
+ * main - entry point
+ *
+ * return: always 0 (success)
+ * /
+
 /* 0-positive_or_negative - check if n is positive, negative or zero */
 
 int main(void)
