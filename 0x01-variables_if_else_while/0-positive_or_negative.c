@@ -7,6 +7,8 @@
 /**
  * main - entry point
  *
+ * description - starting point of the program
+ *
  * return: always 0 (success)
  */
 
