@@ -5,11 +5,13 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - this is the main function
  *
- * description - starting point of the program
+ * description - start point of the program
  *
- * return: always 0 (success)
+ * return - always 0 (success)
+ *
+ * description - always return zero
  */
 
 /* 0-positive_or_negative - check if n is positive, negative or zero */
