@@ -22,21 +22,17 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	int m;
-
-	m = n % 10;
-
-	if (m > 5)
+	if (n % 10 > 5)
 	{
-		printf("Last digit of %i is %i and is less than 6 and not 0", n, m);
+		printf("Last digit of %i is %i and is less than 6 and not 0", n, n % 10);
 	}
-	else if (m == 0)
+	else if (n % 10 == 0)
 	{
-		printf("Last digit of %i is %i and is 0", n, m);
+		printf("Last digit of %i is %i and is 0", n, n % 10);
 	}
 	else
 	{
-		printf("Last digit of %i is %i and is less than 6 and not 0", n, m);
+		printf("Last digit of %i is %i and is less than 6 and not 0", n, n % 10);
 	}
 	return (0);
 }
