@@ -10,7 +10,6 @@ int main(void)
 	int n;
 
 	n = 'a';
-
 	while (n <= 'z')
 	{
 		if (n <= 'e' || 'q')
