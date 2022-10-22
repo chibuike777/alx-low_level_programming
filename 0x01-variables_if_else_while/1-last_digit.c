@@ -6,12 +6,10 @@
 
 
 /**
- * main - entry point
+ * main - function to generted rand
  *
- * description - starting point
- * return: always 0 (success)
- * main return value - always 0
- */
+ * Return: always 0 (success)
+ **/
 
 /*1-last_digit - prints out the last digit*/
 

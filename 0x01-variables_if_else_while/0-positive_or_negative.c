@@ -7,12 +7,8 @@
 /**
  * main - this is the main function
  *
- * description - start point of the program
- *
- * return - always 0 (success)
- *
- * description - always return zero
- */
+ * Return: - always 0 (success)
+ **/
 
 /* 0-positive_or_negative - check if n is positive, negative or zero */
 
