@@ -1,9 +1,9 @@
 #include<stdio.h>
 #include<unistd.h>
 /**
- * 101-quote - prints exactly and that piece of art is useful
+ * main - prints exactly and that piece of art is useful
  *
- * return: always 0 (success)
+ * Return: always 0 (success)
  */
 
 int main(void)
