@@ -12,15 +12,11 @@ int main(void)
 	n = 'a';
 	while (n <= 'z')
 	{
-		if (n == 'e' || 'q')
-		{
-			n++;
-		}
-		else
+		if ((n != 'e') && (n != 'q'))
 		{
 			putchar('n');
-			n++;
 		}
+		n++;
 	}
 	putchar('\n');
 	return (0);
