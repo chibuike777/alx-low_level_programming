@@ -16,11 +16,11 @@ int main(void)
 			{
 				putchar(m + '0');
 				putchar(n + '0');
-			}
-			if (!((m == 8) && (n == 9)))
-			{
-				putchar(44);
-				putchar(32);
+				if (!((m == 8) && (n == 9)))
+				{
+					putchar(44);
+					putchar(32);
+				}
 			}
 		}
 	}
