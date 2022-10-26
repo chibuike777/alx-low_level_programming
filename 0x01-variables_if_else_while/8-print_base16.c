@@ -8,13 +8,19 @@
 
 int main(void)
 {
-	int n;
+	int n, m;
 
 	n = 0;
-	while (n <= 16)
+	m = 'a';
+	while (n < 10)
 	{
 		putchar(n + '0');
 		n++;
+	}
+	while (m <= 'f')
+	{
+		putchar(n);
+		m++;
 	}
 	putchar('\n');
 	return (0);
