@@ -14,11 +14,11 @@ int main(void)
 		{
 			if (m < n)
 			{
-				putchar(m + '0');
-				putchar(n + '0');
+				putchar((m / 10) + 48);
+				putchar((m % 10) + 48);
 				putchar(32);
-				putchar(o + '0');
-				putchar(p + '0');
+				putchar((n / 10) + 48);
+				putchar((n % 10) + 48);
 				if (!((m == 98) || (n == 99)))
 				{
 					putchar(44);
