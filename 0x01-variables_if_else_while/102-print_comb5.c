@@ -18,7 +18,7 @@ int main(void)
 				{
 					if ((m <= o) && (n <= p)) /*avoid repetition*/
 					{
-						if (!((m == n) && (n == o) && (o == p)))
+						if (!((m == o) && (n == p)))
 						{	
 							putchar(m + '0');
 							putchar(n + '0');
