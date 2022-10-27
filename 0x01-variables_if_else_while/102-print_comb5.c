@@ -16,7 +16,7 @@ int main(void)
 			{
 				for (p = 0; p < 10; p++) /*loop to print fourth number*/
 				{
-					if (!((m > o) && (n >= p))) /*avoid repetition*/
+					if ((m <= o) && (n < p)) /*avoid repetition*/
 					{
 						putchar(m + '0');
 						putchar(n + '0');
