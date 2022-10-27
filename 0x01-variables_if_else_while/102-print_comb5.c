@@ -16,17 +16,20 @@ int main(void)
 			{
 				for (p = 0; p < 10; p++) /*loop to print fourth number*/
 				{
-					if ((m <= o) && (n < p)) /*avoid repetition*/
+					if ((m <= o) && (n <= p)) /*avoid repetition*/
 					{
-						putchar(m + '0');
-						putchar(n + '0');
-						putchar(32);
-						putchar(o + '0');
-						putchar(p + '0');
-						if (!((m == 9) && (n == 8) && (o == 9) && (p == 9))) /*last number has no ,*/
-						{
-							putchar(44);
+						if ((m == n) && (n == o) && (o == p))
+						{	
+							putchar(m + '0');
+							putchar(n + '0');
 							putchar(32);
+							putchar(o + '0');
+							putchar(p + '0');
+							if (!((m == 9) && (n == 8) && (o == 9) && (p == 9))) 
+							{
+								putchar(44);
+								putchar(32);
+							}
 						}
 					}
 				}
