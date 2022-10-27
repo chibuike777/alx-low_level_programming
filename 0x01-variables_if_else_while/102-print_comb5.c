@@ -8,9 +8,9 @@ int main(void)
 {
 	int m, n; /*initialize 2 variables*/
 
-	for (m = 0; m < 10; m++) /*loop to print first number*/
+	for (m = 0; m < 100; m++) /*loop to print first number*/
 	{
-		for (n = 0; n < 10; n++) /*loop to print second number*/
+		for (n = 0; n < 100; n++) /*loop to print second number*/
 		{
 			if (m < n)
 			{
